@@ -1,0 +1,4 @@
+D:\temp\ETZahid\bin\ETZahid.dll
+D:\temp\ETZahid\bin\ETZahid.pdb
+D:\temp\ETZahid\obj\Debug\ETZahid.dll
+D:\temp\ETZahid\obj\Debug\ETZahid.pdb

@@ -1,0 +1,8 @@
+D:\temp\AlterHall\bin\AlterHall.dll
+D:\temp\AlterHall\bin\AlterHall.pdb
+D:\temp\AlterHall\obj\Debug\AlterHall.dll
+D:\temp\AlterHall\obj\Debug\AlterHall.pdb
+D:\Projects\Originals\AlterHall\bin\AlterHall.dll
+D:\Projects\Originals\AlterHall\bin\AlterHall.pdb
+D:\Projects\Originals\AlterHall\obj\Debug\AlterHall.dll
+D:\Projects\Originals\AlterHall\obj\Debug\AlterHall.pdb

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9D6E473-E89B-4F4A-B691-BF495ED5E6AB}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ETZahid</RootNamespace>
+    <AssemblyName>ETZahid</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\AdvantagesController.cs" />
+    <Compile Include="Controllers\CaptchaController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\AppealController.cs" />
+    <Compile Include="Controllers\GasController.cs" />
+    <Compile Include="Controllers\DocumentsController.cs" />
+    <Compile Include="Controllers\HowToStartController.cs" />
+    <Compile Include="Controllers\HowItWorksController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\WhyUsController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Images\10.jpg" />
+    <Content Include="Content\Images\11.jpg" />
+    <Content Include="Content\Images\12.jpg" />
+    <Content Include="Content\Images\13.jpg" />
+    <Content Include="Content\Images\7.jpg" />
+    <Content Include="Content\Images\8.jpg" />
+    <Content Include="Content\Images\9.jpg" />
+    <Content Include="Content\Images\adv-1.jpg" />
+    <Content Include="Content\Images\Advantages-bg.jpg" />
+    <Content Include="Content\Images\Advantages-bg2.jpg" />
+    <Content Include="Content\Images\bg.jpg" />
+    <Content Include="Content\Images\bg_4.png" />
+    <Content Include="Content\Images\credit-card.png" />
+    <Content Include="Content\Images\doc.jpg" />
+    <Content Include="Content\Images\doc\1.jpg" />
+    <Content Include="Content\Images\doc\2.jpg" />
+    <Content Include="Content\Images\doc\3.jpg" />
+    <Content Include="Content\Images\employees.png" />
+    <Content Include="Content\Images\home-slider-1.jpg" />
+    <Content Include="Content\Images\home-slider-2.jpg" />
+    <Content Include="Content\Images\home-slider-3.jpg" />
+    <Content Include="Content\Images\home-slider-4.jpg" />
+    <Content Include="Content\Images\home-slider-5.jpg" />
+    <Content Include="Content\Images\home-slider-6.jpg" />
+    <Content Include="Content\Images\logo-2.png" />
+    <Content Include="Content\Images\logo.jpg" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\logo2.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\animate.min.css" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap.css" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap.min.css" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\js\bootstrap.js" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\js\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap-3.3.7-dist\js\npm.js" />
+    <Content Include="Scripts\font-awesome-4.3.0\css\font-awesome.css" />
+    <Content Include="Scripts\font-awesome-4.3.0\css\font-awesome.min.css" />
+    <Content Include="Scripts\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Scripts\font-awesome-4.3.0\HELP-US-OUT.txt" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\site.js" />
+    <Content Include="Scripts\swiper\com\-1816021926_636204187896490312.js" />
+    <Content Include="Scripts\swiper\com\-62333643_636202774523255720.js" />
+    <Content Include="Scripts\swiper\swiper.css" />
+    <Content Include="Scripts\swiper\swiper.min.js" />
+    <Content Include="Scripts\wow.js" />
+    <Content Include="Views\Advantages\Index.aspx" />
+    <Content Include="Views\Contact\Index.aspx" />
+    <Content Include="Views\Appeal\Index.aspx" />
+    <Content Include="Views\Documents\Customer.aspx" />
+    <Content Include="Views\Documents\Customers.aspx" />
+    <Content Include="Views\Documents\Index.aspx" />
+    <Content Include="Views\Documents\Tariffs.aspx" />
+    <Content Include="Views\Gas\Index.aspx" />
+    <Content Include="Views\HowItWorks\Index.aspx" />
+    <Content Include="Views\HowToStart\Index.aspx" />
+    <Content Include="Views\Profile\Index.aspx" />
+    <Content Include="Views\WhyUs\Index.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Views\About\Index.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\SiteH.Master" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Images\list.psd" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap.css.map" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\css\bootstrap.min.css.map" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Scripts\font-awesome-4.3.0\fonts\fontawesome-webfont.eot" />
+    <None Include="Scripts\font-awesome-4.3.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="Scripts\font-awesome-4.3.0\fonts\fontawesome-webfont.woff" />
+    <None Include="Scripts\font-awesome-4.3.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="Scripts\font-awesome-4.3.0\fonts\FontAwesome.otf" />
+    <None Include="Scripts\font-awesome-4.3.0\less\animated.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\bordered-pulled.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\core.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\fixed-width.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\font-awesome.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\icons.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\larger.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\list.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\mixins.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\path.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\rotated-flipped.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\stacked.less" />
+    <None Include="Scripts\font-awesome-4.3.0\less\variables.less" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\font-awesome.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_animated.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_bordered-pulled.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_core.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_fixed-width.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_icons.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_larger.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_list.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_mixins.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_path.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_rotated-flipped.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_stacked.scss" />
+    <None Include="Scripts\font-awesome-4.3.0\scss\_variables.scss" />
+    <Content Include="Views\Shared\Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25071</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
