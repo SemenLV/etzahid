@@ -264,6 +264,41 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
+								<a href="#example1" title="Звіт по зверненнях за 2020 рік" data-toggle="collapse"
+									data-parent="#accordion">
+									Звіт по зверненнях за 2020 рік</a>
+							</h4>
+						</div>
+						<div id="example1" class="panel-collapse collapse">
+							<div class="panel-body">
+								<a href="<%=Url.Content("~/Uploads/Звіт по зверненнях за 2020 рік.pdf")%>" title="Звіт по зверненнях за 2020 рік"
+									target="_blank">
+									Звіт по зверненнях за 2020 рік</a>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a href="#example2" title="Інформація щодо дотримання загальних та гарантованих стандартів якості надання послуг
+									за 2020 рік" data-toggle="collapse" data-parent="#accordion">
+									Інформація щодо дотримання загальних та гарантованих стандартів якості надання послуг
+									за 2020 рік</a>
+							</h4>
+						</div>
+						<div id="example2" class="panel-collapse collapse">
+							<div class="panel-body">
+								<a href="<%=Url.Content("~/Uploads/Інформація якості надання послуг за 2020 рік.pdf")%>"
+									title="Інформація щодо дотримання загальних та гарантованих стандартів якості надання послуг
+									за 2020 рік" target="_blank">
+									Інформація щодо дотримання загальних та гарантованих стандартів якості надання послуг
+									за 2020 рік</a>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
 								<a href="#example" title="Приклад-роз’яснення виставлення рахунків" data-toggle="collapse"
 									data-parent="#accordion">
 									Приклад-роз’яснення виставлення рахунків</a>
@@ -274,14 +309,6 @@
 								<a href="<%=Url.Content("~/Uploads/Розяснення до рахунку фактури.pdf")%>" title="Роз'яснення до рахунку фактури"
 									target="_blank">
 									Роз'яснення до рахунку фактури</a>
-								<a href="<%=Url.Content("~/Uploads/Звіт по зверненнях за 2020 рік.pdf")%>" title="Звіт по зверненнях за 2020 рік"
-									target="_blank">
-									Звіт по зверненнях за 2020 рік</a>
-								<a href="<%=Url.Content("~/Uploads/Інформація якості надання послуг за 2020 рік.pdf")%>"
-									title="Інформація щодо дотримання загальних та гарантованих стандартів якості надання послуг
-									за 2020 рік" target="_blank">
-									Інформація щодо дотримання загальних та гарантованих стандартів якості надання послуг
-									за 2020 рік</a>
 							</div>
 						</div>
 					</div>
