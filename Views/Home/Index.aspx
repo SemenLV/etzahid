@@ -17,7 +17,7 @@
 								на закріпленій території, що здійснюється місцевим обленерго</div>
 						</div>
 						<a href="#" target="_self">
-							<img class="img-responsive" src="<%=Url.Content(" ~/Content/Images/home-slider-1.jpg") %>"
+							<img class="img-responsive" src="<%=Url.Content("~/Content/Images/home-slider-1.jpg") %>"
 							alt="" />
 						</a>
 					</div>
@@ -32,7 +32,7 @@
 							</div>
 						</div>
 						<a href="#" target="_self">
-							<img class="img-responsive" src="<%=Url.Content(" ~/Content/Images/home-slider-3.jpg") %>"
+							<img class="img-responsive" src="<%=Url.Content("~/Content/Images/home-slider-3.jpg") %>"
 							alt="" />
 						</a>
 					</div>
@@ -48,7 +48,7 @@
 							</div>
 						</div>
 						<a href="#" target="_self">
-							<img class="img-responsive" src="<%=Url.Content(" ~/Content/Images/home-slider-4.jpg") %>"
+							<img class="img-responsive" src="<%=Url.Content("~/Content/Images/home-slider-4.jpg") %>"
 							alt="" />
 						</a>
 					</div>
@@ -95,8 +95,7 @@
 				<div class="bottom-line">
 					<div class="top-line">
 						<div class="skew_sub-1">
-							<%--<img alt="ПП Енерготрансзахід" src="<%=Url.Content("
-								~/Content/Images/Advantages-bg.jpg") %>"
+							<%--<img alt="ПП Енерготрансзахід" src="<%=Url.Content("~/Content/Images/Advantages-bg.jpg") %>"
 								width="100%" height="900px" />--%>&nbsp;
 						</div>
 					</div>
@@ -176,7 +175,7 @@
 								</div>
 
 								<div class="box-icon">
-									<img class="img-responsive" src="<%=Url.Content(" ~/Content/Images/credit-card.png")
+									<img class="img-responsive" src="<%=Url.Content("~/Content/Images/credit-card.png")
 										%>" />
 								</div>
 							</div>
@@ -201,7 +200,7 @@
 								</div>
 
 								<div class="box-icon">
-									<img class="img-responsive" src="<%=Url.Content(" ~/Content/Images/employees.png")
+									<img class="img-responsive" src="<%=Url.Content("~/Content/Images/employees.png")
 										%>" />
 								</div>
 							</div>
@@ -244,8 +243,7 @@
 						<div class="col-sm-4">
 							<a class="img-responsive" href="<%=Url.Action(" Index", "Home" ) %>" title="ПП
 								Енерготрансзахід">
-								<img alt="ПП Енерготрансзахід" class="img-responsive" src="<%=Url.Content("
-									~/Content/Images/logo-2.png") %>" />
+								<img alt="ПП Енерготрансзахід" class="img-responsive" src="<%=Url.Content("~/Content/Images/logo-2.png") %>" />
 							</a>
 						</div>
 						<div class="col-sm-offset-2 col-sm-6">

@@ -24,7 +24,7 @@
 					<br /><br />
 					Etzahid1@gmail.com
 					<br /><br />
-					Адреса:м. Львів, вул. Липинського, 12.<br /><br />
+					Адреса: 79039, м.Львів, вул. Шевченка,  60, корпус 8<br /><br />
 					Режим/графік роботи:
 					<br /><br />
 					Понеділок – п’ятниця:
@@ -42,7 +42,7 @@
 					<h3>
 						Адреса</h3>
 					<address>
-						<i class="icons-marker fa fa-home"></i>79039, м.Львів, вул. Шевченка,  60, корпус 8<br />
+						<i class="icons-marker fa fa-home"></i>79039, м.Львів, вул. Шевченка, 60, корпус 8<br />
 						<br />
 					</address>
 					<h3>
@@ -85,7 +85,7 @@
 					<br /><br />
 					Etzahid1@gmail.com
 					<br /><br />
-					Адреса: м. Львів, вул. Липинського, 12
+					Адреса: 79039, м.Львів, вул. Шевченка, 60, корпус 8
 					<br /><br />
 					Режим/графік роботи:
 					<br /><br />
@@ -184,10 +184,7 @@
 				<div class="title text-center">
 					Як нас знайти
 				</div>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.165968315239!2d24.02470571508423!3d49.858126937748075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add07ed0273d1%3A0x63693b29c1634c0e!2z0LLRg9C70LjRhtGPINCX0LDQvNCw0YDRgdGC0LjQvdGW0LLRgdGM0LrQsCwgODMsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1500417574723"
-					width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen>
-				</iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.8196385250144!2d24.00648825152245!3d49.84584637929539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add9e7cc07421%3A0xf06f0e82166e44ff!2sShevchenka%20St%2C%2060%2C%20L&#39;viv%2C%20L&#39;vivs&#39;ka%20oblast%2C%2079000!5e0!3m2!1sen!2sua!4v1671565013116!5m2!1sen!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</div>
 		<div class="row" style="display:none;">

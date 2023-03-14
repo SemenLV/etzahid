@@ -82,13 +82,8 @@
 		captionText.innerHTML = this.alt;
 	});
 
-	var averagePrices = document.getElementById('averagePrices');
-	var averagePricesUl = $('#averagePrices ul');
-	
-	averagePrices.click(function(){
-		(averagePricesUl.style.display === "none" ? 
-			averagePricesUl.style.display = 'block' : 
-			averagePricesUl.style.display = 'none');
+	$('#averagePrices').click(function(){
+		$('#averagePricesUL').toggle();
 	})
 	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
