@@ -177,27 +177,27 @@
 
 
 		<div class="col-xs-12 col-sm-4">
-			<img id="doc3" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0004.jpg") %>" class="docImg img-responsive animated infinite"
+			<img id="doc4" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0004.jpg") %>" class="docImg img-responsive animated infinite"
 				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
 		</div>
 		<div class="col-xs-12 col-sm-4">
-			<img id="doc3" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0005.jpg") %>" class="docImg img-responsive animated infinite"
+			<img id="doc5" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0005.jpg") %>" class="docImg img-responsive animated infinite"
 				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
 		</div>
 		<div class="col-xs-12 col-sm-4">
-			<img id="doc3" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0006.jpg") %>" class="docImg img-responsive animated infinite"
+			<img id="doc6" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0006.jpg") %>" class="docImg img-responsive animated infinite"
 				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
 		</div>
 		<div class="col-xs-12 col-sm-4">
-			<img id="doc3" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0007.jpg") %>" class="docImg img-responsive animated infinite"
+			<img id="doc7" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0007.jpg") %>" class="docImg img-responsive animated infinite"
 				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
 		</div>
 		<div class="col-xs-12 col-sm-4">
-			<img id="doc3" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0008.jpg") %>" class="docImg img-responsive animated infinite"
+			<img id="doc8" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0008.jpg") %>" class="docImg img-responsive animated infinite"
 				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
 		</div>
 		<div class="col-xs-12 col-sm-4">
-			<img id="doc3" src="<%=Url.Content("~/Content/Images/doc/Витяг ПДВ.jpg") %>" class="docImg img-responsive animated infinite"
+			<img id="doc9" src="<%=Url.Content("~/Content/Images/doc/Витяг ПДВ.jpg") %>" class="docImg img-responsive animated infinite"
 				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
 		</div>
 	</div>
