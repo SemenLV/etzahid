@@ -33,7 +33,7 @@
 							<br />
 							<a id="averagePrices" href="javascript:0;" style="cursor:pointer;" title="Середньозважені ціни на Ринку доба наперед">
 								Середньозважені ціни на Ринку доба наперед
-								<span id="averagePricesUL" style="display:none;">
+								<span id="averagePricesUL" style="display:none; margin: 20px 0 0 20px; color:#000;">
 									<p> Січень – 3 466,83 грн/МВт без ПДВ</p>
 									<p> Лютий – 3 213,43 грн/МВт без ПДВ </p>
 								</span>
