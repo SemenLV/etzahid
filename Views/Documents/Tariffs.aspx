@@ -15,6 +15,35 @@
 					<div class="panel-heading">
 						<h4 class="panel-title">
 							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2021">
+								2023</a>
+						</h4>
+					</div>
+					<div id="collapse2021" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<a href="https://www.oree.com.ua/index.php/pricectr" title="Погодинні ціни на Ринку доба наперед"
+								target="_blank">
+								Погодинні ціни на Ринку доба наперед</a>
+							<br />
+							<br />
+							<a href="https://www.oree.com.ua/index.php/web/10542"
+								title="Аналітичні матеріали щодо середньозважених цін АТ «Оператор ринку» на РДН та ВДР"
+								target="_blank">
+								Аналітичні матеріали щодо середньозважених цін АТ «Оператор ринку» на РДН та ВДР</a>
+							<br />
+							<br />
+							<a href=""
+								title="Середньозважені ціни на Ринку доба наперед"
+								target="_blank">
+								Середньозважені ціни на Ринку доба наперед</a>
+							<br />
+							<br />
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2021">
 								2021</a>
 						</h4>
 					</div>

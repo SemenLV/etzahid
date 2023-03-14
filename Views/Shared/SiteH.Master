@@ -64,7 +64,7 @@
 										</li>
 										<li>
 											<a href="<%=Url.Action("Customers", "Documents") %>" title="Документи">
-												Документи</a>
+												Договір та Додатки</a>
 										</li>
 										<li>
 											<a href="<%=Url.Action("Customer", "Documents") %>" title="Інформація для споживача">
