@@ -82,6 +82,8 @@
 		captionText.innerHTML = this.alt;
 	});
 
+	var averagePricesUl = $('#averagePrices ul');
+	
 	$('#averagePrices').click(function(){
 		$('#averagePricesUL').toggle();
 	})
