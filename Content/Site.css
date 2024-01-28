@@ -270,10 +270,6 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 {
 	#nav-menu{min-height:20px;  margin-bottom:0;}
 }
-@media (min-width: 1200px)
-{
-	#nav-menu{}
-}
 
 @media (max-width: 767px)
 {
@@ -503,7 +499,6 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 #doc1:hover, #doc2:hover, #doc3:hover {opacity: 0.7; cursor:pointer;}
 .aboutTitle{text-transform:uppercase; color:#006930;}
 
-#whyUs{}
 #howItWork{background-color:#f2f3f8; color:#999;  margin:50px 0px;}
 #howItWork h3{color:#333;}
 #howItWork img{display:block; text-align:center; margin:30px auto;}
@@ -511,7 +506,6 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 
 #adventage{position:relative; height:900px; margin-top:30px;}
 #adventage h3{color:#fff; margin-bottom:50px; margin-top:0px; text-align:left; position:relative; z-index:999; }
-#adventage .bottom-line{}
 #adventage .bottom-line:before
 {
 	content: "";
@@ -539,7 +533,6 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
     z-index: 1;
 	}
 
-#adventage .top-line{}
 #adventage .top-line:before
 {
 	content: "";
@@ -679,10 +672,13 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 #howToStartList > li >b{text-transform:uppercase;}
 #howToStartList > li p,
 #howToStartList > li ul{color:#333; font-weight:500; text-transform:none;}
-#normDocModal .modal-body{}
 
-#mainDocs ul{padding:0px; margin:30px 30px 30px 30px;}
+#mainDocs ul{padding:0px; margin:60px 30px 90px 30px;}
 #mainDocs ul li{list-style: square outside; padding:0px; margin:20px 0px;}
+
+#docInfo ul{padding:0px; margin:30px 30px 30px 30px;}
+#docInfo ul li{list-style: square outside; padding:0px; margin:20px 0px;}
+#docInfo ul#docInfo_2 li{list-style: none outside; padding:0px; margin:20px 0px;}
 
 @media (min-width: 768px) {
  .section{padding-top: 50px;   padding-bottom: 50px;  }
@@ -873,8 +869,6 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 .adv-box h3{font-size:24px; min-height:50px; text-align:center;}
 .adv-box ul{display:block; list-style:square inside; margin:0 0 0 10px; padding:0; text-align:left;}
 .adv-box ul li{display:list-item; list-style: square inside; margin:0; padding:0;}
-
-.contactForm{}
 
 .contactForm .form-group{margin-bottom:0;}
 .contactAdress h3, .contactForm h3{margin:10px 0px 10px 0px; font-size:26px; color:#006930; font-weight:700;}

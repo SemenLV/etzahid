@@ -20,7 +20,7 @@
 					<h3>
 						Центр обслуговування клієнтів
 					</h3>
-					Телефон: +38 (050) 371 05 00
+					Телефон: +38 (073) 722 99 90
 					<br /><br />
 					Etzahid1@gmail.com
 					<br /><br />
@@ -49,7 +49,8 @@
 						Телефон</h3>
 					<address>
 						<i class="icons-marker fa fa-phone"></i>(050) 332 99 90<br />
-						<i class="icons-marker fa fa-fax"></i>(032) 231 63 16<br />
+						<i class="icons-marker fa fa-phone"></i>(050) 371 03 00<br />
+						<i class="icons-marker fa fa-phone"></i>(073) 722 99 90<br />
 						<br />
 					</address>
 					<h3>
@@ -63,6 +64,10 @@
 						<i class="icons-marker fa fa-envelope"></i></i>
 						<a href="mailto:etzahid@ukr.net">
 							etzahid@ukr.net</a>
+						<br />
+						<i class="icons-marker fa fa-envelope"></i></i>
+						<a href="mailto:etz.tender@gmail.com">
+							etz.tender@gmail.com</a>
 					</address>
 				</div>
 				<div>
