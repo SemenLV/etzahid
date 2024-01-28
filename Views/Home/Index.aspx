@@ -13,8 +13,8 @@
 							<div class="title">
 								Співпраця</div>
 							<div class="subtitle hidden-md hidden-sm hidden-xs">
-								Співпраця з постачальниками електроенергії є альтернативою постачання електроенергії
-								на закріпленій території, що здійснюється місцевим обленерго</div>
+								Співпраця з постачальниками електричної енергії за вільними цінами 
+								– це крок до заощадження коштів</div>
 						</div>
 						<a href="#" target="_self">
 							<img class="img-responsive" src="<%=Url.Content("~/Content/Images/home-slider-1.jpg") %>"
@@ -27,8 +27,8 @@
 								Понад 1000 підприємств
 							</div>
 							<div class="subtitle hidden-md hidden-sm hidden-xs">
-								Вже переконалися в кращому та надійнішому обслуговуванні постачальників за роздрібним
-								тарифом ніж у енергопостачальника (облнерго)
+								Тисячі підприємств вже переконалися в кращому та надійнішому 
+								обслуговуванні постачальників за вільними цінами
 							</div>
 						</div>
 						<a href="#" target="_self">
@@ -76,16 +76,17 @@
 					Наше підприємство є надійним партнером на ринку електроенергії України та Львівщини
 					зокрема</p>
 				<p>
-					ПП «Енерготрансзахід» (код ЄДРПОУ 39634860) засновано в 2015 році, є успішною підприємством,
-					що динамічно розвивається та здійснює постачання електроенергії. <b>ПП «Енерготрансзахід»
-						з 2015 року є членом Оптового ринку електричної енергії України та здійснює діяльність
-						з постачання електричної енергії по всій території України.</b> Нашим підприємством
-					укладено договір з ДП «Енергоринок» №11262/01 від «08» травня 2015 року.
+					
+					ПП «Енерготрансзахід» (код ЄДРПОУ 39634860) засновано в 2015 році та є успішним підприємством, 
+					що стрімко розвивається та підлаштовується під «Новий ринок електричної енергії». 
+					Наша компанія здійснює постачання електроенергії споживачу, а також трейдерською діяльністю. 
+					ПП «Енерготрансзахід» здійснює свою діяльність по всій території України. Нашим підприємством 
+					укладено всі необхідні Договори на ринку електричної енергії
 					<br />
 					<br />
 				</p>
 				<div class="text-center">
-					<a class="btn btn-default" href="<%=Url.Action(" Index", "About" ) %>">
+					<a class="btn btn-default" href="<%=Url.Action("Index", "About") %>">
 						Детальніше</a>
 				</div>
 			</div>
@@ -186,7 +187,7 @@
 									населення,
 									на території України
 								</p>
-								<a class="btn btn-primary" href="http://www.nerc.gov.ua/?id=13844" target="_blank">
+								<a class="btn btn-primary" href="<%=Url.Action("Tariffs", "Documents") %>">
 									Детальніше</a>
 							</div>
 						</div>
@@ -209,7 +210,7 @@
 									Порядок надання споживачами звернень, скарг та претензій стосовно якості постачання
 									електричної енергії та надання повідомлень про загрозу електробезпеки та їх розгляду
 								</p>
-								<a class="btn btn-primary" href="<%=Url.Action(" Index", "Appeal" ) %>">
+								<a class="btn btn-primary" href="<%=Url.Action("Index", "Appeal")%>">
 									Детальніше</a>
 							</div>
 						</div>
@@ -228,7 +229,7 @@
 								<h3>
 									Документація</h3>
 								&nbsp;&nbsp;&nbsp;
-								<a class="btn btn-primary" href="<%=Url.Action(" Index", "Documents" ) %>">
+								<a class="btn btn-primary" href="<%=Url.Action("Customers", "Documents") %>">
 									Детальніше</a>
 							</div>
 						</div>
@@ -257,16 +258,17 @@
 								Код за ЄДРПОУ 39634860
 								<br />
 								Тел. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (050) 332 99 90
-								<br />
-								Факс/тел. (032) 231 63 16
+								
 								<br />
 								<br />
 								<p>
-									E-mail:<a href="mailto:etzahid1@gmail.com">
-										etzahid1@gmail.com</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<a
-										href="mailto:etzahid@ukr.net">etzahid@ukr.net</a>
+									E-mail:<br>
+									<a href="mailto:etzahid1@gmail.com">
+										etzahid1@gmail.com</a><br>
+									<a href="mailto:etzahid@ukr.net">etzahid@ukr.net</a><br>
+									<a href="etz.tender@gmail.com">etz.tender@gmail.com</a>
 								</p>
-								<a class="btn btn-default" href="<%=Url.Action(" Index", "Contact" )%>">
+								<a class="btn btn-default" href="<%=Url.Action("Index", "Contact")%>">
 									Детальніше</a>
 							</address>
 						</div>

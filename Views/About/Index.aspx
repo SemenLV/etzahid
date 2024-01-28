@@ -136,12 +136,12 @@
 				<tr class="row">
 					<td class="col-xs-4">
 						Телефон
-						<br />
-						Телефон / факс
+						
 					</td>
 					<td class="col-xs-8">
-						(050) 332 99 90
-						(032) 231 63 16
+						(050) 332 99 90<br>
+						(050) 371 03 00 <br>
+						(073) 722 99 90
 					</td>
 				</tr>
 				<tr class="row">
@@ -157,50 +157,7 @@
 			</table>
 		</div>
 	</div>
-	<div class="row" style="margin: 30px 0 100px 0;">
-		<div class="col-xs-12">
-			<p class="text-center aboutTitle">
-				<b>Нормативні документи</b></p>
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc1" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0001.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc2" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0002.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc3" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0003.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-
-
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc4" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0004.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc5" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0005.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc6" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0006.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc7" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0007.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc8" src="<%=Url.Content("~/Content/Images/doc/Витяг з ЄДРПОУ_page-0008.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-		<div class="col-xs-12 col-sm-4">
-			<img id="doc9" src="<%=Url.Content("~/Content/Images/doc/Витяг ПДВ.jpg") %>" class="docImg img-responsive animated infinite"
-				data-effect="pulse" alt="Приватне підприємство «Енерготрансзахід»" />
-		</div>
-	</div>
+	
 	<!-- The Modal -->
 	<div id="docModal" class="modal">
 		<!-- The Close Button -->

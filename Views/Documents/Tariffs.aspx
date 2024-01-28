@@ -10,32 +10,77 @@
 				<h2>
 					Тарифи</h2>
 			</div>
+			<div class="panel panel-default">
+				
+				<div class="panel-body">
+					<a href="https://www.oree.com.ua/index.php/pricectr" title="Погодинні ціни на Ринку доба наперед"
+						target="_blank">
+						Погодинні ціни на Ринку доба наперед</a>
+					<br />
+					<br />
+					<a href="https://www.oree.com.ua/index.php/web/300070"
+						title="Аналітичні матеріали щодо середньозважених цін АТ «Оператор ринку» на РДН та ВДР" target="_blank">
+						Аналітичні матеріали щодо середньозважених цін АТ «Оператор ринку» на РДН та ВДР</a>
+					<br />
+					<br />
+			
+				</div>
+			
+			</div>
 			<div class="panel-group" id="accordion" style="margin-bottom: 100px;">
+				
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2021">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2024">
+								2024</a>
+						</h4>
+					</div>
+					<div id="collapse2024" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<a href="<%=Url.Content("~/Uploads/Тарифи на розподіл електричної енергії.pdf")%>"
+								title="Тарифи на послуги з розподілу"
+								target="_blank">
+								Тарифи на послуги з розподілу</a>
+							
+							<br />
+							<br />
+							<a href="<%=Url.Content("~/Uploads/НЕК «УКРЕНЕРГО» на 2024 рік.pdf")%>"
+								title="Тариф на послуги з передачі"
+								target="_blank">
+								Тариф на послуги з передачі</a>
+							
+							<br />
+							<br />
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2023">
 								2023</a>
 						</h4>
 					</div>
-					<div id="collapse2021" class="panel-collapse collapse in">
+					<div id="collapse2023" class="panel-collapse collapse in">
 						<div class="panel-body">
-							<a href="https://www.oree.com.ua/index.php/pricectr" title="Погодинні ціни на Ринку доба наперед"
-								target="_blank">
-								Погодинні ціни на Ринку доба наперед</a>
-							<br />
-							<br />
-							<a href="https://www.oree.com.ua/index.php/web/10542"
-								title="Аналітичні матеріали щодо середньозважених цін АТ «Оператор ринку» на РДН та ВДР"
-								target="_blank">
-								Аналітичні матеріали щодо середньозважених цін АТ «Оператор ринку» на РДН та ВДР</a>
-							<br />
-							<br />
+							
 							<a id="averagePrices" href="javascript:0;" style="cursor:pointer;" title="Середньозважені ціни на Ринку доба наперед">
 								Середньозважені ціни на Ринку доба наперед
 								<span id="averagePricesUL" style="display:none; margin: 20px 0 0 20px; color:#000;">
 									<p> Січень – 3 466,83 грн/МВт без ПДВ</p>
 									<p> Лютий – 3 213,43 грн/МВт без ПДВ </p>
+									<p>Березень – 3 239,27 грн/МВт без ПДВ</p>
+									<p>Квітень – 2 813,74 грн/МВт без ПДВ</p>
+									<p>Травень – 2 867,02 грн/МВт без ПДВ</p>
+									<p>Червень – 2 971,47 грн/МВт без ПДВ</p>
+									<p>Липень – 3 669,87 грн/МВт без ПДВ</p>
+									<p>Серпень – 4 162,23 грн/МВт без ПДВ</p>
+									<p>Вересень – 3 906,93 грн/МВт без ПДВ</p>
+									<p>Жовтень – 4 065,58 грн/МВт без ПДВ</p>
+									<p>Листопад – 4 357,80 грн/МВт без ПДВ</p>
+									<p>Грудень – 4 101,86 грн/МВт без ПДВ</p>
+
 								</span>
 							</a>
 							<br />
@@ -52,11 +97,7 @@
 					</div>
 					<div id="collapse2021" class="panel-collapse collapse in">
 						<div class="panel-body">
-							<a href="https://www.oree.com.ua/index.php/pricectr" title="Погодинні середньозважені ціни купівлі-продажу електроенергії"
-								target="_blank">
-								Погодинні середньозважені ціни купівлі-продажу електроенергії</a>
-							<br />
-							<br />
+							
 							<a href="<%=Url.Content("~/Uploads/Постанова НКРЕ КП Про встановлення тарифів на послуги з розподілу електричної енергії АТ «УКРЗАЛІЗНИЦЯ».pdf")%>"
 								title="Постанова НКРЕ КП Про встановлення тарифів на послуги з розподілу електричної енергії АТ «УКРЗАЛІЗНИЦЯ»"
 								target="_blank">
